@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: #efefef;
+  text-align: center;
+}
+
+.middle {
+  width: 300px;
+  background: #fff;
+  display: inline-block;
+  padding: 8px;
+}
+
+.web-audio-test {
+  padding: 2px;
+  background-color: #ddd;
+  color: #fff;
+}
+
+.web-audio-test.yay {
+  background-color: #070;
+}
+
+.web-audio-test.nope {
+  background-color: #700;
+}
