@@ -15,16 +15,6 @@ html, body {
   padding: 8px;
 }
 
-.web-audio-test {
-  padding: 2px;
-  background-color: #ddd;
-  color: #fff;
-}
-
-.web-audio-test.yay {
-  background-color: #070;
-}
-
-.web-audio-test.nope {
-  background-color: #700;
+.app {
+  font-size: 2em;
 }
