@@ -224,14 +224,10 @@ initialiseValues(audioGraph, model)
 connectListeners(model)
 graphControl.start()
 
-var flop = false
 setInterval(function () {
   graphControl.update()
-  if (flop) {
-    canvasControl.update()
-  }
-  flop = !flop
-}, 20)
+  canvasControl.update()
+}, 40)
 
 },{"./AudioGraphControl":1,"./CanvasControl":2,"./connect-listeners":4,"./create-audio-graph":5,"./create-model":6,"./initialise-values":7}],4:[function(require,module,exports){
 module.exports = function connectListeners (model) {
