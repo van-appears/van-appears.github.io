@@ -77,6 +77,7 @@ module.exports = AudioGraphControl
 var layersRect = document.querySelector('.layers').getBoundingClientRect()
 var layersLeft = layersRect.left
 var layersTop = layersRect.top
+alert(layersLeft + " " + layersTop)
 
 var canvas = document.querySelector('#draw')
 var context = canvas.getContext('2d')
