@@ -74,9 +74,9 @@ AudioGraphControl.prototype.update = function () {
 module.exports = AudioGraphControl
 
 },{}],2:[function(require,module,exports){
-var layers = document.querySelector('.layers')
-var layersLeft = layers.offsetLeft
-var layersTop = layers.offsetTop
+var layersRect = document.querySelector('.layers').getBoundingClientRect()
+var layersLeft = layersRect.left
+var layersTop = layersRect.top
 
 var canvas = document.querySelector('#draw')
 var context = canvas.getContext('2d')

@@ -173,6 +173,7 @@ input[ type='checkbox' ]:checked + label {
 
 .what {
   margin: 10px 0;
+  height: 20px;
 }
 
 .layers {
