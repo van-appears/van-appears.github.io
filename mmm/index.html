@@ -9,10 +9,11 @@
     />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper" style="display: none">
       <div class="windows">
         <button value="graph">Graph</button>
         <button value="sequencer">Sequencer</button>
+        <button value="export">Backup</button>
       </div>
       <div class="graph">
         <div class="options">
@@ -38,14 +39,12 @@
           <button value="change">Change</button>
           <button value="cancel">Cancel</button>
         </div>
+        <div class="header">
+          <span class="name"></span>
+          <label for="play">Play</label>
+          <input id="play" type="checkbox" />
+        </div>
         <div class="controls">
-          <div class="name">
-            <span></span>
-          </div>
-          <div class="play">
-            <label for="play">Play</label>
-            <input id="play" type="checkbox" />
-          </div>
           <div class="control">
             <span class="short"></span>
             <span class="long"></span>
@@ -90,6 +89,12 @@
         <button id="sequencerControl">Start</button>
         <textarea id="sequence"></textarea>
       </div>
+      <div class="export">
+        <button id="import">Apply</button>
+        <button id="copy">Copy to clipboard</button>
+        <button id="reset">Reset all</button>
+        <textarea id="content"></textarea>
+      </div>
     </div>
     <div class="external">
       <a class="home" href=".."></a>
@@ -99,5 +104,5 @@
         target="_blank"
       ></a>
     </div>
-  <script type="text/javascript" src="app.2a89b537c644d24a169e.bundle.js"></script></body>
+  <script type="text/javascript" src="app.d2e6754a3abf69f975d5.bundle.js"></script></body>
 </html>
